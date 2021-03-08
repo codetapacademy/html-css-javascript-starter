@@ -40,7 +40,8 @@ While building this website you want to use only HTML and CSS. No other librarie
 
 You want to go to the [My CV v3 - starter](https://github.com/codetapacademy/my-cv-v3-starter) project on GitHub and click the big **Fork** button to create a copy of it on your profile. 
 
-[![Your GitHub Username](./do-not-touch/your-github-username.png)](https://gethired.academy)
+[![GitHub Fork Button](./do-not-touch/fork.png)](https://gethired.academy)
+
 The **Fork** button can be found at the top right corner of the page. Once the _fork_ process has created a copy of the project to your profile, use the big **Clone** green button to make a copy to your computer and proceed just like with any other project clone from GitHub.
 
 ## Good luck !!
