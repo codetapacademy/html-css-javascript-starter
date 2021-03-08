@@ -44,6 +44,10 @@ You want to go to the [My CV v3 - starter](https://github.com/codetapacademy/my-
 
 The **Fork** button can be found at the top right corner of the page. Once the _fork_ process has created a copy of the project to your profile, use the big **Clone** green button to make a copy to your computer and proceed just like with any other project clone from GitHub.
 
+## Design
+
+Check out the designs created with Figma: https://www.figma.com/file/BKG4eO58SPw5aq61DXulK3/CV
+
 ## Good luck !!
 
 I hope you'll enjoy this project and have fun while you're at it. Stay tuned for more projects to come and the tutorial for this one by following https://codetap.academy and consider subscribing as well. The next projects from this series will be:
