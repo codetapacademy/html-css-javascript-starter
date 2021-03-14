@@ -1,0 +1,18 @@
+/* <body> */
+body {
+  background-color: white;
+}
+
+/* <button> */
+button {
+  display: block;
+  margin-left: 0;
+  font-size: 24px;
+  padding: 15px 25px;
+}
+
+/* <h2> */
+h2 {
+  text-align: justify;
+  color: deeppink;
+}
