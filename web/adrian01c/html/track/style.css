@@ -1,6 +1,6 @@
 /* <body> */
 body {
-  background-color: white;
+  background-color: lightgrey;
 }
 
 /* <button> */
@@ -11,8 +11,23 @@ button {
   padding: 15px 25px;
 }
 
+image {
+  width: fit-content;
+}
+
+h1 {
+  color: red;
+}
+
 /* <h2> */
-h2 {
+h3 {
   text-align: justify;
-  color: deeppink;
+  color: blue;
+  text-size-adjust: 10px;
+}
+
+h4 {
+  color: blue;
+  margin-left: 0;
+  text-align:left;
 }
