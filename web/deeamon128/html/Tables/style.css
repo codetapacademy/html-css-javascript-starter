@@ -1,0 +1,32 @@
+.table1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-collapse: collapse;
+  width: "100%";
+}
+.table1 td, th, tr {
+  border: 2px solid;
+  padding: 5px;
+  text-align: left;
+}
+.table1 th {
+  text-align: center;
+}
+.table1 tr:nth-child(odd) {
+  background-color: coral;
+}
+.table2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-collapse: collapse;
+  width: "100%";
+}
+.table2 td, th, tr {
+  border: 2px solid;
+  padding: 5px;
+  text-align: left;
+}
+.table2 th {
+  text-align: center;
+}
+.table2 tr:nth-child(odd) {
+  background-color: rgb(99, 204, 218);
+}
