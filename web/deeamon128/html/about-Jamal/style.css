@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,600;1,200;1,300&display=swap');
+
+body {
+  height: 100%;
+  background-color: white;
+  font-family: source-serif-pro;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  grid-column: 2/3;
+  background-color: hsl(341, 28%, 72%);
+}
+
+nav {
+  grid-column: 1/2;
+  padding: 2px 5px;
+  display: inline-block;
+  background-color: hsl(341, 28%, 72%);
+}
+
+footer {
+  grid-column: 2/3;
+  text-align: center;
+  padding: 10px;
+}
+a {
+  color: black;  
+}
+
+.box-shadow {
+  background-color: #FAFAFA;
+  padding: 6px;
+  box-shadow: 0 5px 10px rgb(71, 71, 71);
+}
+
+.button__style {
+  border-radius: 10px;
+  border: 0;
+  background-color: hsl(341, 28%, 72%);
+}
+
+ul {
+  padding: 0 15px;
+  line-height: 25px;
+}
