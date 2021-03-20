@@ -9,7 +9,7 @@ let string = "++-";
 divContent.textContent = `The test string is: "${string}".`;
 
 const hasUniqueChars = (str) =>
-  str.length === [...new Set(str.split(""))].length;
+  str.length === [...new Set(str)].length;
 divOutput.textContent = `The output (true/false if a string does/does not contain only unique characters) is: ${hasUniqueChars(
   string
 )}.`;
