@@ -7,24 +7,12 @@ h2Instructions.textContent = `Complete the function that returns an array of len
 
 let x = 3;
 let n = 3;
-divContent.textContent =
-  `The test numbers are: ` +
-  x +
-  ` as the starting given number of the output array and ` +
-  n +
-  ` as the length of the output array. `;
+divContent.textContent = `The test numbers are: ${x} as the starting given number of the output array and ${n} as the length of the output array. `;
 
-function squares(x, n) {
-  if (n <= 0) return [];
-  else {
-    let arr = new Array(n);
-    arr[0] = x;
-    for (i = 1; i < arr.length; i++) {
-      arr[i] = Math.pow(arr[i - 1], 2);
-    }
-    return arr;
-  }
-}
-divOutput.textContent = `The output array is: [` + squares(x, n) + `]`;
+let squares = (startNumber, arrayLength) => {
+  if (arrayLength <= 0) return [];
+  return [...Array(arrayLength)].map((_, i) => startNumber ** (2 ** i));
+};
+divOutput.textContent = `The output array is: [${squares(x, n)}].`;
 
-divFunction.textContent = `The function that does this is ` + squares;
+divFunction.textContent = `The function that does this is let squares = ${squares}.`;
