@@ -1,0 +1,52 @@
+/* <body> */
+body {
+  background-color: lightgrey;
+}
+
+grid {
+  display: grid;
+}
+
+/* <button> */
+button {
+  background-color: cornflowerblue;
+  color: white ;
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 5px;
+}
+
+image {
+  width: fit-content;
+}
+
+h1 {
+  color: green;
+}
+
+/* <h2> */
+h3 {
+  text-align: justify;
+  color: blue;
+  text-size-adjust: 10px;
+}
+
+h4 {
+  color: blue;
+  margin-left: 0;
+  text-align:left;
+}
+
+.avatar {
+  width: 100%;
+}
+
+.description-wrapper {
+  background-color: grey;
+  margin: 25px;
+  
+}
+
+.description-text {
+  padding: 30px;
+}
