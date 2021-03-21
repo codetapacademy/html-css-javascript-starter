@@ -112,3 +112,40 @@ grid > c {
   overflow: scroll;
   border: solid lightsteelblue;
 }
+
+.style-one {
+  text-decoration: none;
+  color: black;
+}
+
+.style-one:hover {color: rgb(218, 97, 97) }
+
+.button {
+  margin-left: 50px;
+  background-color: steelblue;
+  color: white;
+  width: 300px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.button:hover, 
+.button:focus,
+.button:active {
+  transform: scale(1.1);
+}
+
+.button-two {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 50px;
+  height: 100px;
+}
+
+.button-two:hover {background-color: yellow;}
+/* .button-two:active {background-color: yellow;} - IF YOU CLICK ON ME I WILL STAY YELLOW WHILE THE CLICK IS ACTIVATED*/
+/* .button-two:focus {background-color: yellow;} - IF YOU CLICK ON ME I WILL TURN YELLOW PERMANENTLY */
