@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: #007dd1;
+    padding: 20px;
+    background-color: purple;
+}
+
+p {
+   font-size: 16px;
+   color: black;
+   text-align: justify;
+}
+
+h3 {
+    color: red;
+    font-size: 40px;
+    background-color: sandybrown;
+}
