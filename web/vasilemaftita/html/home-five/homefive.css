@@ -1,0 +1,13 @@
+h1 {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+h2 {
+  color: teal;
+}
+p {
+  color: brown;
+  padding: 10px;
+  background-color: lightblue;
+}
