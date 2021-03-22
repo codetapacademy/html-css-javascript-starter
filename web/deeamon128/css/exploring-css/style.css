@@ -2,6 +2,7 @@ body {
   width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: whitesmoke;
+  overflow: visible;
 }
 
 * {
@@ -149,3 +150,40 @@ grid > c {
 .button-two:hover {background-color: yellow;}
 /* .button-two:active {background-color: yellow;} - IF YOU CLICK ON ME I WILL STAY YELLOW WHILE THE CLICK IS ACTIVATED*/
 /* .button-two:focus {background-color: yellow;} - IF YOU CLICK ON ME I WILL TURN YELLOW PERMANENTLY */
+
+.new-list {
+  list-style-type: none;
+  background-color: rgb(206, 206, 206);
+  width: 120px;
+  height: 110px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+li a {
+  display:block;
+  color:rgb(10, 10, 10);
+  text-decoration: none;
+  padding: 3px;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a:active {
+  background-color:rgb(88, 88, 184);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(58, 56, 56);
+  color: white;
+}
