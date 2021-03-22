@@ -6,7 +6,9 @@ h1 {
 h2 {
   background-color: darkolivegreen;
   padding: 10px;
-  color: black;
+  color: black; 
+  border-width: 2px; 
+  border: brown;
 }
 p {
   color: blue;
