@@ -65,6 +65,7 @@ form {
   font-size: 0.8rem;
   padding-bottom: 0.5rem;
 }
+
 #password,
 #password::placeholder {
   width: 100%;
@@ -76,6 +77,7 @@ form {
   font-size: 0.8rem;
   padding-bottom: 0.5rem;
 }
+
 #password2,
 #password2::placeholder {
   width: 100%;
