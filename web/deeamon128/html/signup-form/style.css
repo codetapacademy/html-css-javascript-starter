@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: "Varela Round", sans-serif ;
+  background-color: #568ea6 ;
+}
+
+form {
+  background-image: linear-gradient(#F0B7A4, #F18C8E);
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 16px;
+  padding: 120px 60px;
+  box-shadow: 1px 1px 10px white;
+}
+
+.icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.form h1 {
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.inputs {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+  border-bottom:1px solid rgb(231, 231, 231, 0.8);
+}
+
+.inputs:hover {
+  border-bottom: 3px solid white;
+  transition: 0.1s ease-in-out;
+}
+
+#email,
+#email::placeholder {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+#password,
+#password::placeholder {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+#password2,
+#password2::placeholder {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+
+.button {
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 15px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #F18C8E;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  width: 100%;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 15px 15px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+}
