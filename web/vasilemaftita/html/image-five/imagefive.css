@@ -1,0 +1,14 @@
+h1 {
+  background-color: seagreen;
+  color: seashell;
+  padding: auto;
+}
+h2 {
+  background-color: sienna;
+  counter-reset: red;
+  padding: 10px;
+}
+p {
+  color: blue;
+  padding: auto;
+}

@@ -21,7 +21,7 @@ image {
 }
 
 h1 {
-  color: red;
+  color: green;
 }
 
 /* <h2> */
@@ -39,4 +39,14 @@ h4 {
 
 .avatar {
   width: 100%;
+}
+
+.description-wrapper {
+  background-color: grey;
+  margin: 25px;
+  
+}
+
+.description-text {
+  padding: 30px;
 }
