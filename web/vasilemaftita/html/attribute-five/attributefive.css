@@ -1,0 +1,7 @@
+h1 {
+  background-color: teal;
+  color: yellow;
+}
+h2 {
+  background-color: hsl(120, 60%, 70%); /* pastel green */
+}

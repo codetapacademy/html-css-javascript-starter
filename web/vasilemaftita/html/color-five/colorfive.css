@@ -1,0 +1,13 @@
+h1 {
+  background-color: blue;
+  color: chartreuse;
+  padding: 10px;
+}
+h2 {
+  color: chocolate;
+  background-color: darkgreen;
+  padding: auto;
+}
+p {
+  background-color: burlywood !important;
+}
