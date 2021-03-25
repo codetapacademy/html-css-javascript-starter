@@ -4,5 +4,7 @@ h1 {
 }
 h2 {
   color: aqua;
-  stroke-opacity: initial;
+}
+body {
+  background-color: rgb(255, 136, 127);
 }

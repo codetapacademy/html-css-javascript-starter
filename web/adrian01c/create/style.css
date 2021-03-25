@@ -1,3 +1,22 @@
 h1 {
   color: green;
+  text-align: center;
+  border-color: sandybrown;
+  text-decoration: sienna;
+  transition: width 2s;
+}
+
+body {
+  background-color: aqua;
+}
+
+button {
+  color: red;
+  margin: 25px;
+  position: relative;
+}
+
+image {
+  width: fit-content;
+  
 }
