@@ -1,9 +1,7 @@
 h1 {
-    background-color: crimson;
+  background-color: crimson;
 }
-<style>
-p.round1 {
-    border: 2px solid red;
-    border-radius: 5px;
+h2 {
+  border: 2px solid red;
+  border-radius: 5px;
 }
-</style>    
