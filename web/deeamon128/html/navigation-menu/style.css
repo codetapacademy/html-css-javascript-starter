@@ -1,7 +1,7 @@
 :root {
   --pickled-bluewood: #2B4448;
   --rolling-stone: #758086;
-  --burnt-sienna: #ED6A40;
+  --burnt-sienna: #FFB9B9;
   --white: #FFFFFF;
 }
 
@@ -156,4 +156,30 @@
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+}
+
+.main {
+  background-color: var(--pickled-bluewood);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main-content {
+  color: var(--white);
+  margin-left: 20px;
+  justify-self: start;
+  width: 80%;
+}
+
+.main-content h1 {
+  font-size: 35px;
+}
+
+.main-content p {
+  font-size: 20px;
 }
