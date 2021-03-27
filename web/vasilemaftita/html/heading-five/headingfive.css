@@ -1,9 +1,11 @@
 h1 {
-    background-color: blue;
-    color: burlywood;
+  background-color: blue;
+  color: burlywood;
 }
 h2 {
-    color: brown;
-    padding: 10px;
+  color: brown;
+  padding: 10px;
 }
-p {color: darkmagenta;}
+p {
+  color: darkmagenta;
+}
