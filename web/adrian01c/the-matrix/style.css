@@ -1,7 +1,11 @@
 body {
-  background-color: cadetblue;
+  background-image: url("https://eatsleepworkrepeat.com/wp-content/uploads/2019/03/Matrix-GIF.gif");
 }
 
 h1 {
   color: brown;
+}
+
+h2 {
+  color: aqua;
 }
