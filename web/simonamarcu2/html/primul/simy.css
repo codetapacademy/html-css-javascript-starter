@@ -5,17 +5,25 @@ body {
 }
 
 h1 {
-  background-color: aquamarine;text-align: center; border: 4px solid violet font family cursive ;
+  background-color: aquamarine;
+  text-align: center;
+  border: 4px solid violet font family cursive;
 }
 
 h2 {
-  background-color: hsl(125, 54%, 73%);text-align: center; font-family: cursive;
+  background-color: hsl(125, 54%, 73%);
+  text-align: center;
+  font-family: cursive;
 }
+
 h3 {
-  text-align: center; font-family: cursive;
+  text-align: center;
+  font-family: cursive;
 }
+
 p {
-  text-align: center; font-family: sans-serif;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 .start {
@@ -27,9 +35,11 @@ p {
 }
 
 .member {
-  font-size: 40px;color: tomato;
+  font-size: 40px;
+  color: tomato;
 }
 
 .about {
-  color: royalblue; text-align: center;
+  color: royalblue;
+  text-align: center;
 }
