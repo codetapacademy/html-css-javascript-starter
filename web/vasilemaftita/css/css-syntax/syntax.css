@@ -1,0 +1,20 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+h2 {
+  border: 1px solid black;
+  margin: 25px 50px 75px 100px;
+}
+h3 {
+  color: blue;
+  text-align: center;
+  padding: 10px;
+  background-color: chartreuse;
+}
+p {
+  border: 1px solid black;
+  margin: 25px 50px 75px;
+  background-color: lightblue;
+  padding: 10px;
+}
