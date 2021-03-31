@@ -1,0 +1,11 @@
+h1 {
+  background-color: darkblue;
+  color: bisque;
+}
+h2 {
+  color: red; /* Set text color to red */
+}
+h4 {
+  color: brown;
+  padding: 10px;
+}
