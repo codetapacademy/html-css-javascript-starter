@@ -1,0 +1,13 @@
+h1 {
+  background-color: darkred;
+  color: darksalmon;
+  padding: 15px;
+}
+h2 {
+  color: dodgerblue;
+  padding: 10px;
+  border: fuchsia;
+}
+p {
+  padding: 10px;
+}

@@ -1,0 +1,16 @@
+h1 {
+  background-color: darkmagenta;
+  color: yellow;
+  padding: 15px;
+}
+h2 {
+  color: burlywood;
+  padding: 10px;
+  background-color: fuchsia;
+}
+h3 {
+  color: darkblue;
+}
+p {
+  background-color: beige;
+}

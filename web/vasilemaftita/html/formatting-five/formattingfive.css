@@ -1,0 +1,16 @@
+h1 {
+  background-color: crimson;
+  padding: 15px;
+  color: darkkhaki;
+}
+h2 {
+  background-color: darkolivegreen;
+  padding: 10px;
+  color: black;
+  border-width: 2px;
+  border: brown;
+}
+p {
+  color: blue;
+  padding: 10px;
+}
