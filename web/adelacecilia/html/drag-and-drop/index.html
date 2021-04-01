@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <title>Drag&Drop Example</title>
+  <head>
+    <style>
+      #div1 {
+        width: 400px;
+        height: 400px;
+        padding: 20px;
+        border: 2px solid #aaaaaa;
+      }
+    </style>
+    <script>
+      function allowDrop(ev) {
+        ev.preventDefault();
+      }
+
+      function drag(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+      }
+
+      function drop(ev) {
+        ev.preventDefault();
+        var data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById(data));
+      }
+    </script>
+  </head>
+  <body>
+    <p>Drag & Drop the CodeTap image into the rectangle:</p>
+
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <br />
+    <img
+      id="drag1"
+      src="https://scontent-man2-1.xx.fbcdn.net/v/t1.0-9/22540036_283674488811297_3913616105048042160_n.png?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=YgAAkrXMLjAAX_MvWWg&_nc_ht=scontent-man2-1.xx&oh=6d3f2b78faad805fe9d53945b6561a76&oe=60832C88"
+      draggable="true"
+      ondragstart="drag(event)"
+      width="400"
+      height="400"
+    />
+  </body>
+</html>
