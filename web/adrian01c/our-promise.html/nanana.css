@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+td[ colspan="2"] {
+    background-color: #3b5998;
+    height: fit-content;
+}
+td[ colspan="2"] h1 {
+    color: white;
+    text-align: center;
+}
+table {
+    width: 100%;
+    min-height: 100%;
+}
+table tr:first-child {
+    height: fit-content;
+}
+.smecherie,.smecherie td {
+    /*grosime stil culoare*/
+    border: 1px solid black;
+}
+body > table > tbody > tr:last-child > td:first-child {
+    width: 250px;
+    background-color: #8b9dc3;
+}
+table tr:last-child td:last-child {
+    background-color: #dfe3ee;
+     padding: 15px;
+}
+ td {
+    vertical-align: top;
+}
+img {
+    width: 100%;
+}
+da-mi-cartea-ta-de-credit {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    display: block;
+    border: 1ps dotted black;
+}
+da-mi-cartea-ta-de-credit iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
