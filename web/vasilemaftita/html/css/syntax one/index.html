@@ -5,13 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Syntax one</title>
+    <link rel="stylesheet" href="syntaxone.css" />
     <style>
+      h1 {
+        color: darkblue;
+        background-color: darkgoldenrod;
+        padding: 10px;
+      }
+      span.a {
+        display: inline; /* the default for span */
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;
+        background-color: yellow;
+      }
+
       h3 {
         background-color: darkorange;
         padding: 15px;
-      }
-      p {
-        background-color: blueviolet;
       }
       p {
         color: crimson;
@@ -21,11 +33,49 @@
     </style>
   </head>
   <body>
-    <h3>Acest proiect este gandit de mine singur</h3>
+    <h1>
+      Recomandare: Va recomand sa scrieti toate aceste propietati una sub alta
+      pentru o mai buna citire ulterioara a codului. Deasemenea va recomand sa
+      puneti punct si virgula dupa toate proprietatile elementului chiar daca
+      este ultima dintr-un sir sau daca elementul are o singura proprietate.
+      Luand in calcul acestea codul CSS ar deveni urmatorul
+    </h1>
+    <div>
+      O alta regula CSS <span class="a"> = display: inline = </span>spune ca mai
+      multe elemente cu aceleasi proprietati se pot grupa dupa cum urmeaza/<span
+        class="a"
+      >
+        Comentariile in CSS au aceasi functie ca si comentariile HTML
+      </span>
+      de a specifica ce am facut intr-o anumita expresie, sau daca lipseste ceva
+      sau orice altceva iti trece prin cap./ In capitolul urmator vom aborda
+      clase si id-urui ale CSS-ului in html.
+    </div>
+    <h3>
+      Acest proiect este gandit de mine singur/ Sintaxa CSS - Sau cum formulam
+      codul Sa luam un exemplu practic pe care il vom studia putin.
+    </h3>
+    <h4>
+      Ce inseamna mai exact? Ca "Titlul de marimea 1 are culoarea verde". Atat
+      de simplu. Sa mai aruncam o privire:/ In traducere libera: "Culoarea de
+      fond a continutului este negru" Incearca si tu:/ Exact la ce te gandeai si
+      tu. Inseamna "Cai verzi pe peretele din dreapta". Lasand gluma la o parte
+      am putea sa spunem ca sintaxa CSS este urmatoarea
+    </h4>
+
     <p>Buna seara sau noapte buna, dragilor!</p>
     <p>Eu lucrez inca la proiectele mele de HTML cu CSS</p>
     <p>
       Am terminat proiectele cu HTML si sunt fericit ca le am ivatat smecheriile
+    </p>
+    <p>
+      Oricare dintre cele doua expresii este adevarata. Observatii Si reguli de
+      scriere a codului CSS In cazul in care valoarea elementului se compune din
+      doua cuvinte le vom pune intre ghilimele
+    </p>
+    <p>
+      Daca vom scrie mai mult decat o proprietate le vom separa una de cealalta
+      prin punct si virgula (;).
     </p>
   </body>
 </html>
