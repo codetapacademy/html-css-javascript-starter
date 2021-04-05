@@ -1,0 +1,38 @@
+h1 {
+  background-color: blueviolet;
+  padding: 10px;
+  text-align: center;
+  color: red;
+}
+p.large {
+  font-size: 300%;
+}
+p.two {
+  border-style: solid;
+  border-color: green;
+}
+p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+div {
+  border: 13px solid rgb(94, 6, 6);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: lightblue;
+}
+p.ex3 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick;
+}
+#example1 {
+  background: url(img_flwr.gif) right bottom no-repeat,
+    url(paper.gif) left top repeat;
+  padding: 20px;
+}
