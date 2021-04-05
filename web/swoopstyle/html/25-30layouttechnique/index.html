@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      /* Style the header */
+      header {
+        background-color: black;
+        padding: 30px;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+      }
+      /* Create two columns/boxes that floats next to each other */
+      nav {
+        float: left;
+        width: 30%;
+        height: 300px; /* only for demonstration, should be removed */
+        background: ;
+        padding: 20px;
+      }
+      /* Style the list inside the menu */
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: blanchedalmond;
+        height: 300px; /* only for demonstration, should be removed */
+      }
+      /* Clear floats after the columns */
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      /* Style the footer */
+      footer {
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media (max-width: 600px) {
+        nav,
+        article {
+          width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Just for gags: Jokes and laughs</h2>
+    <header>
+      <h2>All the world is a stage</h2>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#">Jokes</a></li>
+          <li><a href="#">British Humour</a></li>
+          <li><a href="#">Stand Up Comedy</a></li>
+        </ul>
+      </nav>
+      <article>
+        <p>
+          British comedy is some of the most celebrated and eccentric to ever
+          hit the global stage. From the unprecedented success of Monty Python
+          to some of the world’s most famous comedic faces – Charlie Chaplin,
+          Rowan Atkinson, Steven Fry, Hugh Laurie, Ricky Gervais – the UK’s
+          funny bone has become a staple of our cultural exports. Often bizarre,
+          sometimes outrageous, and always surprising, British comedy is our
+          carefully-practiced antidote to overcast days and rainy winters. As
+          you might expect, London is at the very center of the UK’s comedy
+          scene. The capital plays host to some of the most highly-rated venues
+          in the world, with thousands of the planet’s top acts stepping onto
+          the stage every year. Aside from the largest stadium acts and big
+          names, our theatres are also a breeding ground for unique and
+          innovative performances. From simple stand up through to comedic
+          theatre, improvisation, the Avante Garde and even stranger, London can
+          give you whatever you need to get your laugh on. Let’s explore the
+          very best of London’s comedy scene.
+        </p>
+        <p>Best known comedians:</p>
+        <ol>
+          <li>Dave Chappelle</li>
+          <li>Gabriel Iglesias</li>
+          <li>Rick Gervais</li>
+          <br />
+        </ol>
+      </article>
+    </section>
+    <footer>
+      <p><i>Fin</i></p>
+    </footer>
+  </body>
+</html>
