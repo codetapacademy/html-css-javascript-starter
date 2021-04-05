@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@100;500&display=swap");
+
+body {
+  background-color: lavender;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+}
+
+.member {
+  display: inline-flexbox;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: purple;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 7px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  border-radius: 3px;
+  /* border: 4x solid rgb(20, 114, 177); */
+  display: block;
+  width: 250px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: rgb(171, 214, 231);
+}
+
+h2 {
+  text-align: center;
+  background-blend-mode: soft-light;
+  background-color: rgb(183, 243, 218);
+}
+
+/* h3 {
+  text-align: center;
+} */
+
+p {
+  text-align: left;
+  text-decoration-color: lavender;
+}
+
+.start {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.price-list {
+  text-align: left;
+  text-decoration: underline;
+}
+
+/* .memberHrf {
+  color:tomato;
+  text-decoration: none;
+  font-size: 20px;
+} */
+
+.about {
+  color: royalblue;
+  text-align: center;
+}
