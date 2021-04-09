@@ -10,6 +10,8 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
+  margin: 0 15px;
+  column-width: stretch;
 }
 
 .dreptunghi {
@@ -28,11 +30,17 @@
 @media screen and (min-width: 768px) { 
   .gridul-meu {
     grid-template-columns: repeat(8, 1fr);
+    grid-gap: 20px;
+    margin: 0 30px;
+    column-width: stretch;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .gridul-meu {
     grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    margin: 0 130px;
+    column-width: stretch;
   }
 }
