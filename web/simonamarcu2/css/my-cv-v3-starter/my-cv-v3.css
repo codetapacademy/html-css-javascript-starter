@@ -1,11 +1,11 @@
 body {
-  color:rgb(5, 5, 5);
-  background:rgb(241, 233, 233);
+  color: rgb(5, 5, 5);
+  background: rgb(241, 233, 233);
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    color:rgb(244, 245, 233);
+    color: rgb(244, 245, 233);
     background: rgb(2, 1, 1);
   }
 }
@@ -39,7 +39,7 @@ body {
   padding-top: 0;
 }
 
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 768px) {
   .gridul-meu {
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 20px;
