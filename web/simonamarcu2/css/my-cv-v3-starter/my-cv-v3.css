@@ -1,12 +1,24 @@
+body {
+  color:rgb(5, 5, 5);
+  background:rgb(241, 233, 233);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color:rgb(244, 245, 233);
+    background: rgb(2, 1, 1);
+  }
+}
+
 .patrat {
-  background-color: black;
+  background-color: rgb(213, 204, 228);
   align-self: start;
-  padding-top: 100%;
-  color: antiquewhite;
+  padding-top: 50%;
+  color: rgb(12, 12, 12);
 }
 
 .gridul-meu {
-  border: 10px dotted rgb(231, 29, 29);
+  /* border: 10px dotted rgb(231, 29, 29); */
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
@@ -16,12 +28,12 @@
 
 .dreptunghi {
   padding-top: 50%;
-  background-color: blue;
+  background-color: rgb(106, 106, 230);
   align-self: start;
 }
 
 [plin] {
-  background-color: rgb(60, 119, 2);
+  background-color: rgb(173, 199, 146);
   grid-column: 1/-1;
   height: 100px;
   padding-top: 0;
@@ -44,3 +56,12 @@
     column-width: stretch;
   }
 }
+
+/* @media screen and (orientation: landscape) {
+  .gridul-meu {
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    margin: 0 130px;
+    column-width: stretch;
+  } 
+} */
