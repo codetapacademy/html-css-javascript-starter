@@ -1,43 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@100;500&display=swap");
+
 body {
   color: rgb(5, 5, 5);
   background: rgb(241, 233, 233);
+  border-radius: 50px 25px;
+  border: 2px solid pink;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    color: rgb(244, 245, 233);
-    background: rgb(2, 1, 1);
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.829);
   }
 }
 
-.patrat {
-  background-color: rgb(213, 204, 228);
-  align-self: start;
-  padding-top: 50%;
-  color: rgb(12, 12, 12);
-}
-
-.gridul-meu {
-  /* border: 10px dotted rgb(231, 29, 29); */
+/* .gridul-meu {
   display: grid;
+  border: 10px;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 15px;
   column-width: stretch;
+} */
+
+h1 {
+  text-align: center;
+  font-weight: 800px;
 }
 
-.dreptunghi {
-  padding-top: 50%;
-  background-color: rgb(106, 106, 230);
-  align-self: start;
+h2 {
+  text-align: center;
 }
 
-[plin] {
-  background-color: rgb(173, 199, 146);
+h3 {
+  text-align: center;
+}
+
+.push {
+  background-color: dodgerblue;
+  border-radius: 15px;
+  color: aliceblue;
+  padding: 10px 15px;
+  cursor: grabbing;
+  font-size: 25px;
+  text-align: center;
+  /* width: 45%; */
+  font-weight: 500px;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+/* [plin] {
+  background-color: rgb(97, 185, 212);
   grid-column: 1/-1;
   height: 100px;
   padding-top: 0;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .gridul-meu {
