@@ -36,17 +36,23 @@ h3 {
   text-align: center;
 }
 
+p {
+  text-align: left;
+}
+
 .push {
   background-color: dodgerblue;
   border-radius: 15px;
   color: aliceblue;
-  padding: 10px 15px;
+  padding: 0px 20px;
   cursor: grabbing;
   font-size: 25px;
   text-align: center;
   /* width: 45%; */
-  font-weight: 500px;
+  /* font-weight: 500px; */
   display: flex;
+  line-height: 2.5;
+  border: 0;
 }
 
 a {
