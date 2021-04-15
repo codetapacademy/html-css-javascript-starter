@@ -24,11 +24,12 @@ body {
 
 h1 {
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 43px;
   font-size: 36px;
   font-style: normal;
-  letter-spacing: 0em;
+  /* letter-spacing: 0em; */
+  line-height: 30px;
   width: 233px;
   height: 87px;
   left: 29px;
@@ -60,12 +61,19 @@ h3 {
   text-align: left;
   letter-spacing: 1px;
   font-weight: 700px;
+  font-size: 24px;
+  line-height: 30px;
   left: 15px;
   margin-top: 72px;
+  color: rgb(29, 139, 167);
 }
 
 p {
   text-align: left;
+  color: #f5f5f5;
+  font-weight: 400;
+  line-height: 21px;
+  font-size: 12px;
 }
 
 .shadowed-box {
@@ -77,11 +85,16 @@ p {
   padding: 10px;
 }
 
+.download-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .push {
   margin-top: 35px;
-  background-color: dodgerblue;
+  background-color: rgb(93, 201, 235);
   border-radius: 50px;
-  /* color: #fff; */
   padding: 0px 20px;
   cursor: pointer;
   font-size: 15px;
@@ -91,46 +104,44 @@ p {
   max-width: 314px;
   min-width: 290px;
   margin: auto;
-  /* display: block; */
   margin-bottom: 20px;
   height: 50px;
   line-height: 50px;
   font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  image-orientation: left;
+  image-resolution: 16px 16px;
 }
 
-.download-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.vector{
+width: 16px;
+height: 16px;
 }
 
 a {
   text-decoration: none;
   color: #fff;
-  /* width: 60px;
-  height: 60px; */
 }
 
 .roller {
-width: 60px;
-height: 60px;
-left: 125px;
-top: 670px;
-align-items: center;
-justify-content: center;
-display: flex;
-margin: auto;
-border-radius: 20px;
-background-color: rgb(45, 92, 95);
-padding: 0;
+  width: 60px;
+  height: 60px;
+  left: 125px;
+  top: 670px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgb(45, 92, 95);
+  padding: 0;
 }
 
 button img {
-  /* margin: 10px; */
   vertical-align: middle;
   width: 30px;
-  /* height: 30px; */
-  /* display: flex; */
 }
 
 /* [plin] {
