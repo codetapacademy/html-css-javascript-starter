@@ -22,17 +22,31 @@
 }
 
 header {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 100;
 }
 
 .logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px 40px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
+.toggle-menu {
+  position: relative;
+  background: url(assets/toggle.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
 
 video {
   position: absolute;
