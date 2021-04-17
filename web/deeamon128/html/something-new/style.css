@@ -35,7 +35,15 @@ header {
 }
 
 .logo {
+  padding-left: 30px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.logo-icon {
+  position: absolute;
+  filter: invert(1);
+  transform: scale(0.8);
   cursor: pointer;
 }
 
@@ -129,4 +137,15 @@ video {
 .social li a:hover {
   transform: scale(0.6) translateY(-10px);
   transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+  .container,
+  .container header {
+    padding: 40px;
+  }
+
+  .text h1 {
+    font-size: 1.5rem;
+  }
 }
