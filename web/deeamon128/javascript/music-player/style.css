@@ -42,7 +42,7 @@ body {
   position: absolute;
   left: 50%;
   bottom: 50%;
-  transform: translate(-50%, -150%);
+  transform: translate(-50%, -100%);
 }
 
 .image-container img {
@@ -71,4 +71,25 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-btn {
+  background-color: #fff;
+  border: none;
+  color: #afadad;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.action-btn-bigger {
+  font-size: 25px;
+  color: #9b9999;
 }
