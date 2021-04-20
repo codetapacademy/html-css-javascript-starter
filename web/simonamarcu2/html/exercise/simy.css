@@ -1,0 +1,15 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: cornsilk;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+table {
+  width: 100%;
+}
