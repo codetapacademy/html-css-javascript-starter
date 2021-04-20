@@ -17,14 +17,18 @@ body {
   justify-content: center;
 }
 
+.title {
+  text-transform: uppercase;
+}
+
 .music-container {
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 20px 20px 20px 0 rgba(221, 106, 100, 0.5);
   position: relative;
   display: flex;
-  padding: 20px 30px;
-  margin: 100px 0;
+  padding: 20px 35px;
+  margin: 80px 0;
   z-index: 10;
 }
 
@@ -92,4 +96,21 @@ body {
 .action-btn-bigger {
   font-size: 25px;
   color: #9b9999;
+}
+
+.music-info {
+  background-color: #d9cffab6;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: calc(100% - 30px);
+  border-radius: 15px 15px 0 0;
+  opacity: 0;
+  transform: translateY(0%);
+  padding: 20px 10px 20px 180px;
+}
+
+.music-container.play .music-info {
+  opacity: 1;
+  transform: translateY(-100%);
 }
