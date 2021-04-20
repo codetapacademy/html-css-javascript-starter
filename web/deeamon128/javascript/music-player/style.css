@@ -93,6 +93,10 @@ body {
   cursor: pointer;
 }
 
+.action-btn:focus {
+  outline: 0;
+}
+
 .action-btn-bigger {
   font-size: 25px;
   color: #ada9a9;
