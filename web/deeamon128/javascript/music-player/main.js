@@ -28,7 +28,7 @@ function loadSong(song) {
 // Add event listeners 
 playBtn.addEventListener('click', function() {
   const isPlaying = musicContainer.classList.contains('play')
-  
+
   if (isPlaying) {
     pauseSong()
   }
@@ -48,14 +48,14 @@ function playSong() {
 function pauseSong() {
   musicContainer.classList.remove('play')
   playBtn.querySelector('i.fas').classList.add('fa-play')
-  // playBtn.querySelector('i-fas').classList.remove('fa-pause')
+  playBtn.querySelector('i-fas').classList.remove('fa-pause')
 
   audio.pause()
 }
 
 // Change the songs
 prevBtn.addEventListener('click', prevSong)
-// nextBtn.addEventListener('click', nextSong)
+nextBtn.addEventListener('click', nextSong)
 
 // Previous song
 function prevSong() {

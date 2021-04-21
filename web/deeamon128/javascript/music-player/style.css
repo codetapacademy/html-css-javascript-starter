@@ -24,7 +24,7 @@ body {
 .music-container {
   background-color: #fff;
   border-radius: 15px;
-  box-shadow: 10px 10px 10px 0 rgba(221, 106, 100, 0.5);
+  box-shadow: 10px 15px 10px 0 rgba(221, 106, 100, 0.5);
   position: relative;
   display: flex;
   padding: 10px 40px;
@@ -103,17 +103,17 @@ body {
 }
 
 .music-info {
-  background-color: #d9cffab6;
+  background-color: #FDECF4;
   position: absolute;
   top: 0;
   left: 15px;
   width: calc(100% - 30px);
-  height: 60px;
   border-radius: 15px 15px 0 0;
   padding: 10px 10px 10px 150px;
   opacity: 0;
   transform: translateY(0%);
   transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  z-index: 0;
 }
 
 
