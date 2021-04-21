@@ -19,6 +19,7 @@ body {
 
 .title {
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 .music-container {
@@ -113,7 +114,7 @@ body {
   opacity: 0;
   transform: translateY(0%);
   transition: transform 0.3s ease-in, opacity 0.3s ease-in;
-  z-index: 0;
+  z-index: -1;
 }
 
 
