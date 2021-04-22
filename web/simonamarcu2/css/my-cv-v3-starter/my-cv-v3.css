@@ -1,43 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
 body {
   color: rgb(5, 5, 5);
   background: rgb(241, 233, 233);
+  font-family: "Montserrat", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    color: rgb(244, 245, 233);
-    background: rgb(2, 1, 1);
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.829);
   }
 }
 
-.patrat {
-  background-color: rgb(213, 204, 228);
-  align-self: start;
-  padding-top: 50%;
-  color: rgb(12, 12, 12);
-}
-
 .gridul-meu {
-  /* border: 10px dotted rgb(231, 29, 29); */
   display: grid;
+  border: 10px;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 15px;
   column-width: stretch;
 }
 
-.dreptunghi {
-  padding-top: 50%;
-  background-color: rgb(106, 106, 230);
-  align-self: start;
+h1 {
+  text-align: center;
+  font-weight: 700;
+  line-height: 43px;
+  font-size: 36px;
+  font-style: normal;
+  width: 233px;
+  height: 87px;
+  left: 29px;
+  position: static;
+  top: 0px;
+  color: rgb(77, 204, 198);
+  display: block;
+  border-bottom: 2px solid rgb(41, 137, 161);
+  margin: auto;
+  padding-bottom: 16px;
 }
 
-[plin] {
-  background-color: rgb(173, 199, 146);
+h2 {
+  text-align: center;
+  font-weight: 600px;
+  line-height: 29px;
+  font-size: 24px;
+  width: 100%;
+  left: 7px;
+  top: 122px;
+  letter-spacing: 1px;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+  display: block;
+}
+
+h3 {
+  text-align: left;
+  letter-spacing: 1px;
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 30px;
+  left: 15px;
+  margin-top: 72px;
+  color: rgb(29, 139, 167);
+}
+
+p {
+  text-align: left;
+  color: #f5f5f5;
+  font-weight: 400;
+  line-height: 21px;
+  font-size: 12px;
+}
+
+.shadowed-box {
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 2px outset aquamarine;
+  background-color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 10px;
+}
+
+.download-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.push {
+  margin-top: 35px;
+  background-color: rgb(93, 201, 235);
+  border-radius: 50px;
+  padding: 0px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+  width: fit-content;
+  border: 0;
+  max-width: 314px;
+  min-width: 290px;
+  margin: auto;
+  margin-bottom: 20px;
+  height: 50px;
+  line-height: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  /* line-height: 17px; */
+  image-orientation: left;
+  image-resolution: 16px 16px;
+}
+
+.vector{
+width: 16px;
+height: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.roller {
+  width: 60px;
+  height: 60px;
+  left: 125px;
+  top: 670px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgb(45, 92, 95);
+  padding: 0;
+}
+
+button img {
+  vertical-align: middle;
+  width: 30px;
+}
+
+/* [plin] {
+  background-color: rgb(97, 185, 212);
   grid-column: 1/-1;
   height: 100px;
   padding-top: 0;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .gridul-meu {
