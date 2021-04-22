@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Music Player</title>
+</head>
+
+<body>
+  <h1 class="title">Music Player</h1>
+  <h2 class="title">Anton Ishutin Album </h2>
+
+  <div class="music-container play" id="music-container">
+    <div class="music-info">
+      <h4 id="music-title"></h4>
+      <div class="progress-container" progress-containerid="progress-container">
+        <div class="progress" id="progress"></div>
+      </div>
+    </div>
+  
+
+    <audio src="music/gone.mp3" id="song-track"></audio>
+
+    <div class="image-container">
+      <img src="images/love.jpg" alt="album-cover" id="music-cover">
+    </div>
+
+    <div class="navigation-menu">
+      <button id="prev" class="action-btn">
+        <i class="fas fa-backward"></i>
+      </button>
+      <button id="play" class="action-btn action-btn-bigger">
+        <i class="fas fa-play"></i>
+      </button>
+      <button id="next" class="action-btn">
+        <i class="fas fa-forward"></i>
+      </button>
+    </div>
+  </div>
+</body>
+</html>
