@@ -11,6 +11,7 @@ header {
   object-fit: contain;
   position: relative;
   color: white;
+  z-index: -1;
 }
 
 .intro-text {
@@ -33,13 +34,24 @@ header {
 .first-bitcoin {
   height: 200px;
   position: absolute;
-  top: 10%;
-  right: 70%;
+  top: 5%;
+  left: 10%;
 }
 
 .second-bitcoin {
   height: 300px;
   position: absolute;
   top: 50%;
-  right: 5%;
+  right: 20%;
+}
+
+section {
+  min-height: 100vh;
+  background: linear-gradient(240deg, #697597, #3c4564);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 36px;
 }
