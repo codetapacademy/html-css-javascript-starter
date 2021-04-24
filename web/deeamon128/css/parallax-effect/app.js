@@ -6,6 +6,6 @@ function parallax(element, distance, speed) {
 
 window.addEventListener("scroll", function() {
   parallax("header", window.scrollY, 1);
-  parallax(".first-bitcoin", window.scrollY, 0.4 )
-  parallax(".second-bitcoin", window.scrollY, 0.6 )
+  parallax(".first-bitcoin", window.scrollY, 0.2 )
+  parallax(".second-bitcoin", window.scrollY, 0.1 )
 })
