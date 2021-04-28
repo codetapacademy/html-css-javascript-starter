@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato';
+  background-color: rgb(68, 66, 66);
+  color: white;
+  line-height: 1.5;
+}
+
+.slider {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+}
