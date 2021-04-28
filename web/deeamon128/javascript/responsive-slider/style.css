@@ -91,25 +91,25 @@ button:hover {
 
 .slide:nth-child(2) {
   background: url('./img/2.jpg') no-repeat
-  center top/cover;
+  center center/cover;
 }
 
 .slide:nth-child(3) {
   background: url('./img/3.jpg') no-repeat
-  center top/cover;
+  center center/cover;
 }
 
 .slide:nth-child(4) {
   background: url('./img/4.jpg') no-repeat
-  center top/cover;
+  center center/cover;
 }
 
 .slide:nth-child(5) {
   background: url('./img/5.jpg') no-repeat
-  center top/cover;
+  center center/cover;
 }
 
 .slide:nth-child(6) {
   background: url('./img/6.jpg') no-repeat
-  center top/cover;
+  center center/cover;
 }
