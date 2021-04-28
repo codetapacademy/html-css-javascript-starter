@@ -38,7 +38,7 @@ body {
   position: absolute;
   width: 700px;
   height: 200px;
-  background-color: rgba(1, 118, 124, 0.9);
+  background-color: rgba(1, 118, 124, 0.8);
   bottom: 40px;
   left: -700px;
   opacity: 0;
@@ -49,7 +49,7 @@ body {
 .slide.current .description-container {
   opacity: 1;
   transform: translateX(700px);
-  transition: all 0.5s ease-in-out 0.3s;
+  transition: all 0.s ease-in-out 0.2s;
 }
 
 .description-container h1 {
@@ -81,6 +81,19 @@ button {
 button:hover {
   background-color: #fff;
   color:rgb(68, 66, 66)
+}
+
+@media (max-width: 600px) {
+  .slide .description-container {
+    bottom: -240px;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+
+.slide.current .description-container {
+  transform: translateY(-240px);
+}
 }
 
 /* Background Images  */
