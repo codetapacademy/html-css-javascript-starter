@@ -17,5 +17,99 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
-  /* overflow: hidden; */
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+  opacity: 1;
+}
+
+.description-container {
+  position: absolute;
+  width: 700px;
+  height: 200px;
+  background-color: rgba(1, 118, 124, 0.9);
+  bottom: 40px;
+  left: -700px;
+  opacity: 0;
+  padding: 20px;
+  border-radius: 0 20px 20px 0;
+}
+
+.slide.current .description-container {
+  opacity: 1;
+  transform: translateX(700px);
+  transition: all 0.5s ease-in-out 0.3s;
+}
+
+.description-container h1 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#prvBtn {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+}
+
+#nxtBtn {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+}
+
+button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 13px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color:rgb(68, 66, 66)
+}
+
+/* Background Images  */
+.slide:first-child {
+  background: url('./img/1.jpg') no-repeat 
+  center center/cover;
+}
+
+.slide:nth-child(2) {
+  background: url('./img/2.jpg') no-repeat
+  center top/cover;
+}
+
+.slide:nth-child(3) {
+  background: url('./img/3.jpg') no-repeat
+  center top/cover;
+}
+
+.slide:nth-child(4) {
+  background: url('./img/4.jpg') no-repeat
+  center top/cover;
+}
+
+.slide:nth-child(5) {
+  background: url('./img/5.jpg') no-repeat
+  center top/cover;
+}
+
+.slide:nth-child(6) {
+  background: url('./img/6.jpg') no-repeat
+  center top/cover;
 }
