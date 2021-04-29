@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Value attribute</title>
-    </head>
-      
-    <body>
-        <h1>The HTTP method that the browser uses to submit the form can have values bellow:
-          <ul>
-            <li>post-HTTP POST method-form data are included in the body of the form and sent to the server</li>
-            <li>get-HTTP GET method-form data are appended to the action attribute URI with a '?'as separator, and the resulting URI is sent to the server. Use this method when the form has no side-effects and contains only ASCII characters</li>
-            <li>dialog-Use when the form is inside a < dialog > element to close the dialog when submitted.
-              <p>This value can be overriden by a formmethod attribute on a < button >or < input >element.</p>
-            </li>
-          </ul>
-        </h1>
-      
-        <h2>Fill in</h2>
-      
-        <form action="mirror.php" 
-              method="post"
-              id="users">
-      
-            <label for="username">
-              Username:
-          </label>
-            <input type="text"
-                   name="username"
-                   id="Username">
-      
-            
-      
-            <label for="password">
-              Password:
-          </label>
-            <input type="password" 
-                   name="password">
+  </head>
+
+  <body>
+    <h1>The HTTP method that the browser uses to submit the form can have values bellow:
+      <ul>
+        <li>post-HTTP POST method-form data are included in the body of the form and sent to the server</li>
+        <li>get-HTTP GET method-form data are appended to the action attribute URI with a '?'as separator, and the resulting URI is sent to the server. Use this method when the form has no side-effects and contains only ASCII characters</li>
+        <li>dialog-Use when the form is inside a < dialog > element to close the dialog when submitted.
+          <p>This value can be overriden by a formmethod attribute on a < button >or < input >element.</p>
+        </li>
+      </ul>
+    </h1>
+
+    <h2>Fill in</h2>
+
+    <form action="mirror.php" method="post" id="users">
+
+      <label for="username">
+        Username:
+      </label>
+      <input type="text" name="username" id="Username">
+
+
+      <label for="password">
+        Password:
+      </label>
+      <input type="password" name="password">
+    </form>
+
+
+    <button onclick="">
+      Submit
+    </button>
+    <p>Remember < b > is the bring attention element</p>
+    <b>After Submitting the form-data will sent
+                      to the "mirror.php" page on the server.</b>
+    <h3>Other type of value
+      <br>
+      <p>Create a form element
+        <form action="/url-where-i-want-you-to-submit-this-data" method="dialog" id="text"><input type="text" required>
         </form>
-      
-        
-      
-        <button onclick="">
-            Submit
-        </button>
-        <p>Remember < b > is the bring attention element</p>
-        <b>After Submitting the form-data will sent
-          to the "mirror.php" page on the server.</b>
-    </body>
-      
-    </html>
+        <button type="submit">this button submits the form to url where i want</button>
+      </p>
+</h3>
+<h4>Use the value attribute with radio buttons and checkboxes
+  <p>When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs of type radio and checkboxes report their values from the 'value' attribute</p>
+<label for="white"><input id="white" value="white" type="radio" name="white-black">White </label>
+<label for="black"><input id="black" value="black" type="radio" name="white-black">Black </label>
+
+</h4>
+  </body>
+
+</html>
