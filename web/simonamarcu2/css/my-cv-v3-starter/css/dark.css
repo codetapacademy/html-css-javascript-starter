@@ -34,17 +34,7 @@
     opacity: 90%;
     mix-blend-mode: normal;
   }
-  .vvector {
-    /* color: #FFFFFF; */
-    /* background-color:#FFFFFF; */
-    /* fill:#FFFFFF; */
-    /* stroke: #FFFFFF; */
-    opacity: 90%;
-    /* mix-blend-mode: normal; */
+  a {
+    color: #FFFFFF;
   }
-  /* a {
-    color: #0F8ED6;
-    fill:#0F8ED6;
-    background: #0F8ED6;  
-  } */
 }

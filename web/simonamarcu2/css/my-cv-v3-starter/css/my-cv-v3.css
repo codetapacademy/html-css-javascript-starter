@@ -130,7 +130,7 @@ p {
 
 .roller {
   background-color: #b7cfdd;
-  color: #0f8ed6;
+  /* color: #0f8ed6; */
   width: 65px;
   height: 65px;
   left: 125px;
@@ -146,6 +146,10 @@ p {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+  color: #0f8ed6;
+}
 /* [plin] {
   background-color: rgb(97, 185, 212);
   grid-column: 1/-1;
