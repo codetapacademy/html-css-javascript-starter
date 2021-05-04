@@ -1,0 +1,105 @@
+div {
+  border: 3px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 80px;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+  margin-bottom: 100px;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+  margin-left: 200px;
+}
+
+.unu {
+  margin-top: 50px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid red;
+  border-bottom: 50px solid transparent;
+}
+
+.triangle-right {
+  margin-top: 70px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid red;
+  border-bottom: 50px solid transparent;
+  margin-right: 4000px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.rectangle {
+  width: 200px;
+  height: 100px;
+  background: red;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+}
+
+.oval {
+  width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 100px / 50px;
+}
+
+.triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-right: 100px solid transparent;
+}
+
+.triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-left: 100px solid transparent;
+}
+
+.triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-right: 100px solid transparent;
+}
+
+.triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-left: 100px solid transparent;
+}
+
+.trapezoid {<br />
+  border-bottom: 100px solid red;<br />
+  border-left: 25px solid transparent;<br />
+  border-right: 25px solid transparent;<br />
+  height: 0;<br />
+  width: 100px;<br/>
+}<br />
