@@ -112,20 +112,27 @@ video {
   margin: 10px 0;
 }
 
-.text a {
+.nice-anchor {
   display: inline-block;
   font-size: 1rem;
   padding: 5px 20px;
-  margin-top: 10px;
+  margin-top: 20px;
   background-color: white;
   letter-spacing: 2px;
   text-decoration: none;
   color: var(--black);
   text-transform: uppercase;
+  transition: 250ms;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-radius: 1rem;
 }
 
-.text a:hover {
-  letter-spacing: 6px;
+.nice-anchor:hover {
+  letter-spacing: 4px;
 }
 
 .social {
@@ -164,6 +171,7 @@ video {
 .menu ul li {
   list-style: none;
   line-height: 45px;
+  margin-bottom: 10px;
 }
 
 .menu ul li a {
@@ -171,13 +179,22 @@ video {
   color: white;
   background-color: var(--mirage);
   font-size: 1rem;
+  padding: 0 50px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
 }
 
 .menu ul li a:hover {
   color: var(--black);
   background-color: transparent;
   transition: 0.2s ease-in-out;
+  border: 2px solid var(--mirage)
 }
+
 
 @media (max-width: 1000px) {
   .container,
