@@ -39,6 +39,8 @@ span {
   margin-left: 10px;
 }
 
+.location-timezone,
 .temperature-degree {
   font-size: 40px;
+  font-weight: 300;
 }
