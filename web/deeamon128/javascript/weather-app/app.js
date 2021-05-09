@@ -13,11 +13,20 @@ window.addEventListener("load", () => {
           return response.json();
         })
         .then(data => {
-          const {conditions, temp} = data.currentConditions
+          const {conditions, temp, icon} = data.currentConditions
           temperatureDegree.textContent = temp;
           temperatureDescription.textContent = conditions;
           locationTimeZone.textContent = data.timezone
+          icon.textContent = icon;
+          setIcons(icon, document.querySelector('.icon'));
         })
     });
+  }
+
+  function setIcons(icon, iconID){
+    const skycons = new Skycons({color: "white"});
+    const currentIcon = icon.replace(/-/g, "_").toUpperCase();
+    skycons.play();
+    return skycons.set(iconID, Skycons[currentIcon])
   }
 });
