@@ -1,0 +1,27 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.panel__footer--left,
+.panel__footer--right {
+  background-color: #036;
+  padding: 1rem;
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel__footer--left {
+  position: absolute;
+  /* bottom: 0; */
+  left: 0;
+}
+
+.panel__footer--right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

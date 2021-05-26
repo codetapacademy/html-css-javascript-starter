@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good code vs bad code</title>
+    <link rel="stylesheet" href="look-at-me-baby.css">
+  </head>
+  <body>
+    <h1>Good code vs bad code</h1>
+    <p>
+      Here is an example of good code vs bad code. It also illustrates why
+      people that start with CSS and HTML first, followed by JavaScript achieve
+      better results because they focus on what the browser offers and use the
+      best approach.
+    </p>
+    <section>
+      <article>
+        <header>
+          <h1>The JavaScript Way</h1>
+          <p>
+            The next piece of code is written by a Senior Front End Developer
+          </p>
+          <code>
+            <pre>
+              &lt;script&gt;
+                const bottom = document.querySelector('.panel__footer--left')
+                const listener = window.addEventListener('scroll', () =&gt; {
+                  console.log(bottom, window.scrollY, window.innerHeight)
+                  bottom.style.top = `${window.scrollY - bottom.offsetHeight + window.innerHeight}px`
+                })
+              &lt;/script&gt;
+            </pre>
+          </code>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        </header>
+        <div class="panel__footer--left">left</div>
+        
+      </article>
+
+      <article>
+        <header>
+          <h1>The Best Browser Available Way</h1>
+          <p>
+            The next piece of code is also written by a Senior Front End Developer
+          </p>
+          <code>
+            <pre>
+              .panel__footer--right {
+                position: fixed;
+                bottom: 0;
+              }
+            </pre>
+          </code>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/5dAJgeNelHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        </header>
+        <div class="panel__footer--right">right</div>
+        
+      </article>
+    </section>
+
+    <script>
+      const bottom = document.querySelector('.panel__footer--left')
+      const listener = window.addEventListener('scroll', () => {
+        console.log(bottom, window.scrollY, window.innerHeight)
+        bottom.style.top = `${window.scrollY - bottom.offsetHeight + window.innerHeight}px`
+      })
+    </script>
+  </body>
+</html>
