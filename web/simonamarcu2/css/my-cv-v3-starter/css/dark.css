@@ -1,0 +1,40 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    /* color: #FFFFFF; */
+    background: #1a1a1a;
+  }
+  h1, h2, h3 {
+    color:#FFFFFF
+  }
+  .dual-span {
+    color: #88CEF7;
+  }
+  .push {
+    color: #074569;
+  }
+  .roller {
+    background: #0f8ed6;
+    opacity: 0,2;
+  }
+  h1 {
+    border-bottom: 2px solid rgb(41, 137, 161);
+  }
+  p {
+    color: #FFFFFF;
+  }
+  .shadowed-box {
+    border-color: #0F8ED6;
+  }
+  .push {
+    background-color: #074569;
+    color: #f5f5f5;
+  }
+  .roller {
+    background-color: rgb(92, 92, 92);
+    opacity: 90%;
+    mix-blend-mode: normal;
+  }
+  a {
+    color: #FFFFFF;
+  }
+}

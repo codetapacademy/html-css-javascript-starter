@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import "font.css";
 
 body {
-  color: rgb(5, 5, 5);
-  background: rgb(241, 233, 233);
   font-family: "Montserrat", sans-serif;
+  color: #1a1a1a;
+  background: #e5e5e5;
+  margin: 15px;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: rgb(255, 255, 255);
-    background: rgba(0, 0, 0, 0.829);
-  }
+h1,
+h2,
+h3 {
+  color: black;
 }
 
 .gridul-meu {
@@ -20,6 +21,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
   margin: 0 15px;
   column-width: stretch;
+}
+
+.dual-span {
+  color: #0f8ed6;
 }
 
 h1 {
@@ -33,9 +38,7 @@ h1 {
   left: 29px;
   position: static;
   top: 0px;
-  color: rgb(77, 204, 198);
   display: block;
-  border-bottom: 2px solid rgb(41, 137, 161);
   margin: auto;
   padding-bottom: 16px;
 }
@@ -43,13 +46,12 @@ h1 {
 h2 {
   text-align: center;
   font-weight: 600px;
-  line-height: 29px;
   font-size: 24px;
+  line-height: 29px;
   width: 100%;
   left: 7px;
   top: 122px;
-  letter-spacing: 1px;
-  order: 0;
+  order: 1;
   flex-grow: 0;
   margin: 16px 0px;
   display: block;
@@ -57,91 +59,97 @@ h2 {
 
 h3 {
   text-align: left;
-  letter-spacing: 1px;
   font-weight: 700px;
   font-size: 24px;
   line-height: 30px;
   left: 15px;
   margin-top: 72px;
-  color: rgb(29, 139, 167);
-}
-
-p {
-  text-align: left;
-  color: #f5f5f5;
-  font-weight: 400;
-  line-height: 21px;
-  font-size: 12px;
 }
 
 .shadowed-box {
-  margin-bottom: 20px;
-  border-radius: 25px;
-  border: 2px outset aquamarine;
-  background-color: rgb(0, 0, 0);
+  /* width: 290px; */
+  height: 179px;
+  top: 328px;
+  left: 15px;
+  border-radius: 20px;
+  border: 2px solid #0f8ed6;
+  filter: drop-shadow(0px 1px 2px rgba(13, 13, 14, 0.25));
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  width: 294px;
+  height: 147px;
+  left: 15px;
+  top: 328px;
+  padding: 16px;
+  margin: 0px;
   text-align: left;
-  padding: 10px;
+  filter: drop-shadow(0px 1px 2px rgba(13, 13, 14, 0.25));
+
 }
 
 .download-button {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+  width: 330px;
+  height: 50px;
+  top: 542px;
 }
 
-.push {
-  margin-top: 35px;
-  background-color: rgb(93, 201, 235);
-  border-radius: 50px;
-  padding: 0px 20px;
-  cursor: pointer;
-  font-size: 15px;
-  text-align: center;
-  width: fit-content;
-  border: 0;
-  max-width: 314px;
-  min-width: 290px;
-  margin: auto;
-  margin-bottom: 20px;
-  height: 50px;
-  line-height: 50px;
+.span-push {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
-  /* line-height: 17px; */
-  image-orientation: left;
-  image-resolution: 16px 16px;
+  line-height: 17px;
+  text-align: center;
+  align-items: center;
 }
 
-.vector{
-width: 16px;
-height: 16px;
+.push {
+  background-color: #0f8ed6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #f5f5f5;
+  border-radius: 28px;
+  border: 0;
+  max-width: 330px;
+  min-width: 330px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 0px 15px 25px rgba(15, 142, 214, 0.15);
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
+.icon-download {
+  font-size: 26px;
 }
 
 .roller {
-  width: 60px;
-  height: 60px;
+  background-color: #b7cfdd;
+  /* color: #0f8ed6; */
+  width: 65px;
+  height: 65px;
   left: 125px;
-  top: 670px;
+  right: 130px;
+  border-radius: 20px;
+  border: 0px;
+  padding: 0px;
+  font-size: 36px;
   align-items: center;
   justify-content: center;
   display: flex;
   margin: auto;
-  border-radius: 20px;
-  background-color: rgb(45, 92, 95);
-  padding: 0;
+  cursor: pointer;
 }
 
-button img {
-  vertical-align: middle;
-  width: 30px;
+a {
+  text-decoration: none;
+  color: #0f8ed6;
 }
-
 /* [plin] {
   background-color: rgb(97, 185, 212);
   grid-column: 1/-1;
